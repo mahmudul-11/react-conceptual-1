@@ -8,6 +8,9 @@ const States = () => {
         setValues(values+1);
         // console.log(values); **** ekhane eta dile website er theke 1 kom print hobe kron "setValues" asynchronus function.
     }
+    // useEffect(()=>{
+
+    // },[])//ekhne jodi [] jodi na dewa hoy tahole proti state chnage howar  por por ei refresh hobe. [] er vitore jar jar opor dependent segolar naam likhte hobe...1 tar beshi o likha jabe (,) dia separate korte hobe
     useEffect(()=>{ },[ ]);
     return (
         <div>

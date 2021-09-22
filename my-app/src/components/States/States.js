@@ -1,5 +1,6 @@
 import './States.css'
 import React, { useEffect, useState } from 'react';
+// Ekhne React ta hocche node module jeta bracket er bahire ache
 
 const States = () => {
     const [values, setValues] = useState(0);
@@ -17,3 +18,4 @@ const States = () => {
 };
 
 export default States;
+// export{add, multipy}

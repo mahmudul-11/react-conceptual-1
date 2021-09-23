@@ -11,7 +11,7 @@ const CoustomJson = () => {
     },[]);
     // console.log(value);
     return (
-        <div>
+        <div className='display'>
             
 
             {

@@ -9,13 +9,13 @@ const CoustomJson = () => {
         .then(res => res.json())
         .then(data => setValue(data))
     },[]);
-    console.log(value);
+    // console.log(value);
     return (
         <div>
             
 
             {
-                value.map( v=> <ShowJson></ShowJson>)
+                value.map( v=> <ShowJson key={v._id} v={v}></ShowJson>)
             }
         </div>
     );
